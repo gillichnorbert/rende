@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        new Store().readFile();
+        Solution sol = new Solution();
+        // sol.buborekRendezo();
+        sol.gyorsRendezo();
+        sol.startSorts();
     }
 }
